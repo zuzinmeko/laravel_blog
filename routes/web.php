@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
- //Route::get('/','MainController@home')->name('welcome');
+ Route::get('/','MainController@home')->name('welcome');
 
- //Route::get('service','MainController@service')->name('servicepage');
+// Route::get('service','MainController@service')->name('servicepage');
 
 // working with bootstrap tramplate
 
@@ -30,5 +30,8 @@ use Illuminate\Support\Facades\Route;
  	Route::get('about','MyController@about')->name('about');
 
  	Route::get('contact','MyController@contact')->name('contact');
+
+ 	//CRUD  For student table
+ 	Route::resource('student','StudentController');
 
  
