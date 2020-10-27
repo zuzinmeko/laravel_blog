@@ -38,6 +38,9 @@
 					<li class="nav-item">
 						<a href="{{route('agency')}}" class="nav-link">Agency</a>
 					</li> 
+          <li class="nav-item">
+            <a href="{{route('student.index')}}" class="nav-link">Student list</a>
+          </li>
 					<li class="nav-item">
 						<a href="{{route('about')}}" class="nav-link">About</a>
 					</li>
